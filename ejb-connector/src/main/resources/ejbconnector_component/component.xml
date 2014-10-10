@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="ejbconnector_component" type="synapse/template">
+	<subComponents>
+		<component name="invoke">
+			<file>invoke.xml</file>
+			<description>Invokes an EJB Service</description>
+		</component>
+	</subComponents>
+</component>

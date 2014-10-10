@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<connector>
+    <component name="ejbconnector" package="org.wso2.carbon.connectors">
+        <dependency component="ejbconnector_component"/>
+        <description>synapse library for ejb connector</description>
+    </component>
+</connector>

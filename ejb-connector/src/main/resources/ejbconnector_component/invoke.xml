@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template name="invoke" xmlns="http://ws.apache.org/ns/synapse">
+    <sequence>
+        <!--<log level="custom">
+            <property name="EJBConnector" value="====invoking===="/>
+        </log>-->
+        <class name="org.wso2.carbon.custom.connector.EJBConnector"/>
+    </sequence>
+</template>
